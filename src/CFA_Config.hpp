@@ -2,24 +2,24 @@
  * @file CFA_Config.hpp
  * @author Cassandra "ZZ Cat" Robinson (nicad.heli.flier@gmail.com)
  * @brief This is the configuration file for CRSF for Arduino.
- * @version 1.1.0
- * @date 2024-4-18
+ * @version 1.0.3
+ * @date 2024-7-20
  *
  * @copyright Copyright (c) 2024, Cassandra "ZZ Cat" Robinson. All rights reserved.
  *
- * @section License GNU General Public License v3.0
- * This header file is a part of the CRSF for Arduino library.
+ * @section License GNU Affero General Public License v3.0
+ * This source file is a part of the CRSF for Arduino library.
  * CRSF for Arduino is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
+ * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * CRSF for Arduino is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * GNU Affero General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License
+ * You should have received a copy of the GNU Affero General Public License
  * along with CRSF for Arduino.  If not, see <https://www.gnu.org/licenses/>.
  * 
  */
@@ -36,11 +36,11 @@ namespace crsfForArduinoConfig
 /* CRSFforArduino version
 Versioning is done using Semantic Versioning 2.0.0.
 See https://semver.org/ for more information. */
-#define CRSFFORARDUINO_VERSION       "1.1.0"
-#define CRSFFORARDUINO_VERSION_DATE  "2024-4-18"
+#define CRSFFORARDUINO_VERSION       "1.0.3"
+#define CRSFFORARDUINO_VERSION_DATE  "2024-7-20"
 #define CRSFFORARDUINO_VERSION_MAJOR 1
-#define CRSFFORARDUINO_VERSION_MINOR 1
-#define CRSFFORARDUINO_VERSION_PATCH 0
+#define CRSFFORARDUINO_VERSION_MINOR 0
+#define CRSFFORARDUINO_VERSION_PATCH 3
 
 /* Failsafe Options
 - CRSF_FAILSAFE_LQI_THRESHOLD: The minimum LQI value for the receiver to be considered connected.

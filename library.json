@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "name": "CRSFforArduino",
-    "version": "1.1.0",
+    "version": "1.0.3",
     "description": "An Arduino Library for communicating with ExpressLRS and TBS Crossfire receivers.",
     "keywords": "arduino, remote-control, arduino-library, protocols, rc, radio-control, crsf, expresslrs",
     "repository":
@@ -18,7 +18,7 @@
         "maintainer": true
       }
     ],
-    "license": "GNU GPLv3",
+    "license": "GNU AGPLv3",
     "homepage": "https://github.com/ZZ-Cat/CRSFforArduino",
     "dependencies": {
     },
